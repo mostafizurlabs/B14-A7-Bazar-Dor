@@ -1,4 +1,3 @@
-
 "use client";
 
 import Link from "next/link";
@@ -22,7 +21,7 @@ export default function HeroSection() {
 
   return (
     <section className="mx-auto max-w-5xl py-6">
-      <div className="flex h-[280px] flex-col items-center justify-center gap-4 overflow-hidden rounded-3xl border border-[#DDE7DE] bg-[#FAFCFA] px-6 sm:h-[300px] sm:flex-row sm:justify-between sm:gap-8 sm:px-10">
+      <div className="flex flex-col items-center justify-center gap-4 overflow-hidden rounded-3xl border border-[#DDE7DE] bg-[#FAFCFA] px-6 py-6 sm:h-[300px] sm:flex-row sm:justify-between sm:gap-8 sm:px-10 sm:py-0">
 
         {/* Text Content */}
         <div className="flex min-w-0 flex-1 flex-col items-start">
